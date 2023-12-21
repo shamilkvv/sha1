@@ -7,7 +7,6 @@ T leftСyclicShift(T value, int positions) {
     return (value << positions) | (value >> (bitSize - positions));
 }
 
-
 int main() {
    
 
